@@ -11,9 +11,6 @@
 		3588D2B7298A4FAA0096FA7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588D2B6298A4FAA0096FA7F /* ContentView.swift */; };
 		3588D2B9298A4FAB0096FA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3588D2B8298A4FAB0096FA7F /* Assets.xcassets */; };
 		3588D2BC298A4FAB0096FA7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3588D2BB298A4FAB0096FA7F /* Preview Assets.xcassets */; };
-		3588D2C6298A4FAB0096FA7F /* CallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588D2C5298A4FAB0096FA7F /* CallerTests.swift */; };
-		3588D2D0298A4FAB0096FA7F /* CallerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588D2CF298A4FAB0096FA7F /* CallerUITests.swift */; };
-		3588D2D2298A4FAB0096FA7F /* CallerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588D2D1298A4FAB0096FA7F /* CallerUITestsLaunchTests.swift */; };
 		3588D2E5298A50C30096FA7F /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588D2E4298A50C30096FA7F /* CallDirectoryHandler.swift */; };
 		3588D2E9298A50C30096FA7F /* Infomation.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3588D2E2298A50C30096FA7F /* Infomation.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -63,10 +60,7 @@
 		3588D2B8298A4FAB0096FA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3588D2BB298A4FAB0096FA7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3588D2C1298A4FAB0096FA7F /* CallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3588D2C5298A4FAB0096FA7F /* CallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerTests.swift; sourceTree = "<group>"; };
 		3588D2CB298A4FAB0096FA7F /* CallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3588D2CF298A4FAB0096FA7F /* CallerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerUITests.swift; sourceTree = "<group>"; };
-		3588D2D1298A4FAB0096FA7F /* CallerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3588D2E2298A50C30096FA7F /* Infomation.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Infomation.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3588D2E4298A50C30096FA7F /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
 		3588D2E6298A50C30096FA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,8 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				3588D2B3298A4FAA0096FA7F /* Caller */,
-				3588D2C4298A4FAB0096FA7F /* CallerTests */,
-				3588D2CE298A4FAB0096FA7F /* CallerUITests */,
 				3588D2E3298A50C30096FA7F /* Infomation */,
 				3588D2B2298A4FAA0096FA7F /* Products */,
 			);
@@ -143,23 +135,6 @@
 				3588D2BB298A4FAB0096FA7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3588D2C4298A4FAB0096FA7F /* CallerTests */ = {
-			isa = PBXGroup;
-			children = (
-				3588D2C5298A4FAB0096FA7F /* CallerTests.swift */,
-			);
-			path = CallerTests;
-			sourceTree = "<group>";
-		};
-		3588D2CE298A4FAB0096FA7F /* CallerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3588D2CF298A4FAB0096FA7F /* CallerUITests.swift */,
-				3588D2D1298A4FAB0096FA7F /* CallerUITestsLaunchTests.swift */,
-			);
-			path = CallerUITests;
 			sourceTree = "<group>";
 		};
 		3588D2E3298A50C30096FA7F /* Infomation */ = {
@@ -340,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3588D2C6298A4FAB0096FA7F /* CallerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3588D2D0298A4FAB0096FA7F /* CallerUITests.swift in Sources */,
-				3588D2D2298A4FAB0096FA7F /* CallerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
